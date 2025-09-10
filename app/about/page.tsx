@@ -4,13 +4,13 @@ import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import { ArrowLeft, Sparkles, Linkedin, Github, Mail, Users, Target, Lightbulb, Award } from "lucide-react"
 
+
 export default function AboutPage() {
   const teamMembers = [
     {
       name: "Raj Singh Yadav",
       role: "Co-Founder & CEO",
-      bio: "Patent attorney with 10+ years of experience in IP law and AI technology. Led patent filing for 500+ startups.",
-      image: "/professional-headshot-of-raj-singh-yadav.jpg",
+      image: "/image.png",
       linkedin: "#",
       github: "#",
       email: "raj@patentai.com",
@@ -18,8 +18,7 @@ export default function AboutPage() {
     {
       name: "Bhavya Shah",
       role: "Co-Founder & CTO",
-      bio: "AI/ML engineer specializing in NLP and legal tech. Former Google AI researcher with expertise in patent analysis.",
-      image: "/professional-headshot-of-bhavya-shah.jpg",
+      image: "/image.png",
       linkedin: "#",
       github: "#",
       email: "bhavya@patentai.com",
@@ -27,8 +26,8 @@ export default function AboutPage() {
     {
       name: "Devansh",
       role: "Lead AI Engineer",
-      bio: "Machine learning expert focused on document processing and automated patent drafting systems.",
-      image: "/professional-headshot-of-devansh.jpg",
+      image:
+        "/image.png",
       linkedin: "#",
       github: "#",
       email: "devansh@patentai.com",
@@ -36,13 +35,12 @@ export default function AboutPage() {
     {
       name: "Dheeraj",
       role: "Senior Full-Stack Developer",
-      bio: "Full-stack developer with expertise in building scalable legal tech platforms and secure document management.",
-      image: "/professional-headshot-of-dheeraj.jpg",
+      image: "/image.png",
       linkedin: "#",
       github: "#",
       email: "dheeraj@patentai.com",
     },
-  ]
+  ];
 
   const values = [
     {
