@@ -1,7 +1,7 @@
 import type { NextRequest } from "next/server"
 import { fetchWithRetry, delay } from "./utils"
 
-const GROQ_API_KEY = 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
+const GROQ_API_KEY = "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"
 
 export async function POST(request: NextRequest) {
   try {
