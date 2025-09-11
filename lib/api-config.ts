@@ -1,7 +1,7 @@
 // API Configuration - Change this to switch between providers
 export const API_CONFIG = {
   // Switch between 'gemini' and 'groq'
-  provider: 'groq' as 'gemini' | 'groq',
+  provider: 'gemini' as 'gemini' | 'groq',
   
   // API endpoints
   endpoints: {
